@@ -538,7 +538,7 @@ section {
    Internal Sub-page Hero / Header
    ========================================== */
 .subpage-banner {
-  padding: 8rem 1.5rem 4rem 1.5rem;
+  padding: 8rem 1.5rem 2.5rem 1.5rem;
   background: linear-gradient(135deg, var(--primary-rose-light) 0%, var(--secondary-buff-light) 100%);
   text-align: center;
   border-bottom: 1px solid var(--color-border);
@@ -562,6 +562,18 @@ section {
 
 .subpage-banner .breadcrumb span {
   color: var(--text-muted);
+}
+
+/* Sub-page Content Layouts Spacing */
+.about-page-content,
+.services-menu-page,
+.gallery-content-page,
+.team-content-page,
+.sanitation-page-content,
+.loyalty-page-content,
+.hours-page-content,
+.contact-page-content {
+  padding-top: 2.5rem;
 }
 
 /* ==========================================
@@ -752,6 +764,7 @@ section {
 
 .services-category-section {
   scroll-margin-top: 100px;
+  padding: 0;
 }
 
 .services-category-title {
