@@ -1,0 +1,23 @@
+{
+  "business_name": "Blush & Buff Nail Studio",
+  "one_line_description": "A friendly neighborhood nail studio offering manicures, pedicures, gel polish, dip powder, acrylics, and custom nail art.",
+  "address": {
+    "street": "3128 Patterson Avenue",
+    "city": "Richmond",
+    "state": "VA",
+    "zip": "23221"
+  },
+  "phone": "(804) 555-7426",
+  "email": "hello@blushandbuffnails.com",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "10:00 AM - 7:00 PM",
+    "Wednesday": "10:00 AM - 7:00 PM",
+    "Thursday": "10:00 AM - 7:00 PM",
+    "Friday": "10:00 AM - 7:00 PM",
+    "Saturday": "9:00 AM - 6:00 PM",
+    "Sunday": "11:00 AM - 4:00 PM"
+  },
+  "holiday_note": "Sunday hours are limited. Holiday hours may vary, please call ahead before visiting on major holidays.",
+  "walk_in_policy": "Walk-ins are welcome when available, but appointments are recommended."
+}

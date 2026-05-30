@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blush & Buff Nail Studio | Friendly Richmond VA Nail Salon</title>
+  <meta name="description" content="A friendly neighborhood nail salon in Richmond, Virginia, offering high-quality manicures, pedicures, gel polish, dip powder, acrylics, and custom nail art. Walk-ins welcome!">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css?v=1.1">
+</head>
+<body>
+
+  <!-- ==========================================
+       Header / Navigation
+       ========================================== -->
+  <header class="main-header" id="header">
+    <div class="container nav-container">
+      <div class="logo-wrapper">
+        <a href="index.html" class="logo-link" id="nav-logo-link">
+          <img src="logo/blush-and-buff-logo.jpg" alt="Blush & Buff Nail Studio Logo" class="logo-img" id="nav-logo-img">
+          <span class="logo-text">Blush & Buff</span>
+        </a>
+      </div>
+      
+      <!-- Hamburger Menu for Mobile -->
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation menu" id="mobile-menu-toggle">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <nav class="nav-menu-wrapper" id="main-navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link active" id="nav-home">Home</a></li>
+          <li><a href="about.html" class="nav-link" id="nav-about">About</a></li>
+          <li><a href="services.html" class="nav-link" id="nav-services">Services</a></li>
+          <li><a href="gallery.html" class="nav-link" id="nav-gallery">Gallery</a></li>
+          <li><a href="team.html" class="nav-link" id="nav-team">Team</a></li>
+          <li><a href="sanitation.html" class="nav-link" id="nav-sanitation">Sanitation</a></li>
+          <li><a href="loyalty.html" class="nav-link" id="nav-loyalty">Gifts & Loyalty</a></li>
+          <li><a href="hours.html" class="nav-link" id="nav-hours">Hours</a></li>
+          <li><a href="contact.html" class="nav-link" id="nav-contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       1. Hero Section
+       ========================================== -->
+  <section class="hero" id="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-content reveal-on-scroll">
+        <div class="hero-badge" id="hero-welcome-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          Richmond's Neighborhood Nail Studio
+        </div>
+        <h1 id="hero-title">Blush & Buff <br><span>Nail Studio</span></h1>
+        <p class="hero-description" id="hero-desc-text">
+          A friendly neighborhood nail studio offering manicures, pedicures, gel polish, dip powder, acrylics, and custom nail art.
+        </p>
+        <div class="hero-cta" id="hero-action-buttons">
+          <a href="tel:+18045557426" class="btn btn-primary" id="hero-cta-call">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call (804) 555-7426
+          </a>
+          <a href="services.html" class="btn btn-secondary" id="hero-cta-services">Explore Services</a>
+        </div>
+        <div class="hero-policy" id="hero-walkin-policy">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          <span id="hero-policy-text">Walk-ins are welcome when available, but appointments are recommended.</span>
+        </div>
+      </div>
+      
+      <div class="hero-image-wrapper reveal-on-scroll" style="transition-delay: 0.15s;">
+        <div class="hero-blob-bg"></div>
+        <div class="hero-main-card" id="hero-img-card">
+          <img src="images/blush-buff-classic-manicure.jpg" alt="Fresh manicure at Blush & Buff Nail Studio">
+        </div>
+        <div class="hero-accent-badge" id="hero-accent-badge-widget">
+          <div class="hero-accent-circle">✨</div>
+          <span>Flawless<br>Results</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       2. About Section
+       ========================================== -->
+  <section class="about" id="about-section">
+    <div class="container split-layout">
+      <div class="image-side about-grid-images reveal-on-scroll">
+        <div class="image-frame" id="about-img-frame-1">
+          <img src="images/blush-buff-manicure-stations.jpg" alt="Clean and modern manicure stations">
+        </div>
+        <div class="image-frame" id="about-img-frame-2">
+          <img src="images/blush-buff-polish-wall.jpg" alt="Wide selection of nail polish colors">
+        </div>
+      </div>
+      
+      <div class="content-side reveal-on-scroll" style="transition-delay: 0.15s;">
+        <div class="hero-badge" id="about-badge">Who We Are</div>
+        <h2 id="about-section-heading">Blush & Buff Nail Studio</h2>
+        <p class="lead" id="about-p-1" style="font-size: 1.15rem; font-weight: 500; margin-bottom: 1.5rem; color: var(--primary-rose-dark);">
+          Blush & Buff Nail Studio is a friendly neighborhood nail salon in Richmond, Virginia, offering manicures, pedicures, gel polish, dip powder, acrylics, builder gel, and custom nail art.
+        </p>
+        <p id="about-p-2">
+          Whether you are booking a quick polish refresh or a full set with detailed art, our goal is to make your visit comfortable, clean, and easy.
+        </p>
+        <p id="about-p-3">
+          Our salon focuses on clean, comfortable services and polished results. From everyday manicures and relaxing pedicures to gel, dip powder, acrylics, builder gel, and custom nail art, our team helps clients feel put together for work, weekends, special occasions, and everything in between.
+        </p>
+        <div style="margin-top: 2rem;">
+          <a href="about.html" class="btn btn-outline" id="about-btn-more">Read More About Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       3. Services Section
+       ========================================== -->
+  <section class="services" id="services-section" style="background-color: var(--bg-white);">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <div class="hero-badge" id="services-badge">Menu & Rates</div>
+        <h2 id="services-section-heading">Nail Services Made Simple</h2>
+        <p id="services-intro-text">
+          From classic manicures and relaxing pedicures to gel polish, dip powder, acrylics, builder gel, and custom nail art, Blush & Buff Nail Studio offers services for everyday polish, special occasions, and everything in between.
+        </p>
+      </div>
+      
+      <div class="services-summary-grid reveal-on-scroll">
+        <!-- Service Type 1 -->
+        <div class="card service-summary-card" id="service-card-manicures">
+          <div class="icon-box">💅</div>
+          <h3>Manicures</h3>
+          <p>Classic natural nail shaping, detailed cuticle care, and hydrating massage with regular, gel, dip, or structured overlay products.</p>
+          <a href="services.html#manicures" class="btn btn-outline btn-sm" id="service-link-manicures" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">View Manicures</a>
+        </div>
+        
+        <!-- Service Type 2 -->
+        <div class="card service-summary-card" id="service-card-pedicures">
+          <div class="icon-box">👣</div>
+          <h3>Pedicures</h3>
+          <p>Relaxing foot soaks, cuticle trimming, exfoliating scrubs, hot towels, and extended massages for soft, refreshed feet.</p>
+          <a href="services.html#pedicures" class="btn btn-outline btn-sm" id="service-link-pedicures" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">View Pedicures</a>
+        </div>
+        
+        <!-- Service Type 3 -->
+        <div class="card service-summary-card" id="service-card-enhancements">
+          <div class="icon-box">✨</div>
+          <h3>Acrylics & Extensions</h3>
+          <p>Full acrylic sets, professional fills, and soft Gel-X extensions customized in your preferred length and shape.</p>
+          <a href="services.html#acrylics" class="btn btn-outline btn-sm" id="service-link-enhancements" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">View Acrylics</a>
+        </div>
+      </div>
+      
+      <div class="services-pdf-callout reveal-on-scroll">
+        <h3 id="pdf-callout-heading">Want to Browse the Full Price List?</h3>
+        <p id="pdf-callout-desc">Get a downloadable PDF of our complete service menu, detailing all manicure types, pedicure upgrades, nail art levels, waxings, and add-ons.</p>
+        <a href="menu/blush-and-buff-services-menu.pdf" target="_blank" class="btn btn-primary" id="services-pdf-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          View Services & Pricing: /menu/blush-and-buff-services-menu.pdf
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       4. Nail Work Gallery Section
+       ========================================== -->
+  <section class="gallery-section-summary" id="gallery-section">
+    <div class="container-fluid" style="padding: 0;">
+      <div class="section-header reveal-on-scroll" style="padding: 0 1.5rem;">
+        <div class="hero-badge" id="gallery-badge">Our Creations</div>
+        <h2 id="gallery-section-heading">Nail Work Gallery</h2>
+        <p id="gallery-intro-text">Take a look at some of the fresh sets, clean manicures, and custom nail art created by our talented technicians right here in Richmond.</p>
+      </div>
+      
+      <div class="gallery-scroller-wrapper reveal-on-scroll">
+        <div class="gallery-marquee" id="gallery-marquee-track">
+          <!-- Marquee Item 1 -->
+          <div class="marquee-item"><img src="images/blush-buff-classic-manicure.jpg" alt="Classic Manicure"></div>
+          <!-- Marquee Item 2 -->
+          <div class="marquee-item"><img src="images/blush-buff-gel-manicure.jpg" alt="Gel Manicure"></div>
+          <!-- Marquee Item 3 -->
+          <div class="marquee-item"><img src="images/blush-buff-dip-powder.jpg" alt="Dip Powder Manicure"></div>
+          <!-- Marquee Item 4 -->
+          <div class="marquee-item"><img src="images/blush-buff-builder-gel.jpg" alt="Builder Gel Overlay"></div>
+          <!-- Marquee Item 5 -->
+          <div class="marquee-item"><img src="images/blush-buff-acrylic-set.jpg" alt="Acrylic Full Set"></div>
+          <!-- Marquee Item 6 -->
+          <div class="marquee-item"><img src="images/blush-buff-french-manicure.jpg" alt="French Manicure"></div>
+          <!-- Marquee Item 7 -->
+          <div class="marquee-item"><img src="images/blush-buff-pedicure.jpg" alt="Professional Pedicure"></div>
+          <!-- Marquee Item 8 -->
+          <div class="marquee-item"><img src="images/blush-buff-bold-nail-art.jpg" alt="Bold Custom Nail Art"></div>
+          
+          <!-- Repeat items for seamless infinite scroll -->
+          <div class="marquee-item"><img src="images/blush-buff-classic-manicure.jpg" alt="Classic Manicure"></div>
+          <div class="marquee-item"><img src="images/blush-buff-gel-manicure.jpg" alt="Gel Manicure"></div>
+          <div class="marquee-item"><img src="images/blush-buff-dip-powder.jpg" alt="Dip Powder Manicure"></div>
+          <div class="marquee-item"><img src="images/blush-buff-builder-gel.jpg" alt="Builder Gel Overlay"></div>
+        </div>
+      </div>
+      
+      <div style="text-align: center; margin-top: 3rem; padding: 0 1.5rem;" class="reveal-on-scroll">
+        <a href="gallery.html" class="btn btn-outline" id="gallery-btn-more">View Full Easy-to-Scan Gallery</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       5. Team Section
+       ========================================== -->
+  <section class="team" id="team-section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <div class="hero-badge" id="team-badge">Artisans</div>
+        <h2 id="team-section-heading">Meet the Team</h2>
+        <p id="team-intro-text">
+          Our nail technicians bring different specialties to the table, from clean natural manicures and relaxing pedicures to acrylic sets, builder gel, dip powder, and custom nail art.
+        </p>
+      </div>
+      
+      <div class="team-grid reveal-on-scroll">
+        <!-- Team Member 1 -->
+        <div class="team-card" id="team-member-maya">
+          <div class="team-avatar maya" id="team-avatar-maya">M</div>
+          <h3>Maya</h3>
+          <div class="team-role">Nail Specialist</div>
+          <div class="team-specialties">
+            <span class="specialty-tag">Gel manicures</span>
+            <span class="specialty-tag">Natural nails</span>
+            <span class="specialty-tag">Classic French</span>
+          </div>
+        </div>
+        
+        <!-- Team Member 2 -->
+        <div class="team-card" id="team-member-tasha">
+          <div class="team-avatar tasha" id="team-avatar-tasha">T</div>
+          <h3>Tasha</h3>
+          <div class="team-role">Master Sculptor</div>
+          <div class="team-specialties">
+            <span class="specialty-tag">Acrylic sets</span>
+            <span class="specialty-tag">Long shaping</span>
+            <span class="specialty-tag">Bold nail art</span>
+          </div>
+        </div>
+        
+        <!-- Team Member 3 -->
+        <div class="team-card" id="team-member-lina">
+          <div class="team-avatar lina" id="team-avatar-lina">L</div>
+          <h3>Lina</h3>
+          <div class="team-role">Gel & Color Expert</div>
+          <div class="team-specialties">
+            <span class="specialty-tag">Dip powder</span>
+            <span class="specialty-tag">Builder gel</span>
+            <span class="specialty-tag">Seasonal art</span>
+          </div>
+        </div>
+        
+        <!-- Team Member 4 -->
+        <div class="team-card" id="team-member-carmen">
+          <div class="team-avatar carmen" id="team-avatar-carmen">C</div>
+          <h3>Carmen</h3>
+          <div class="team-role">Pedicure Specialist</div>
+          <div class="team-specialties">
+            <span class="specialty-tag">Pedicures</span>
+            <span class="specialty-tag">Spa pedicures</span>
+            <span class="specialty-tag">Nail wellness</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="team-booking-note reveal-on-scroll" id="team-booking-policy-widget">
+        <div class="team-booking-icon">📞</div>
+        <p class="team-booking-text" id="team-booking-policy-text">
+          Clients are welcome to request a preferred technician when calling to schedule, but booking with a specific team member is based on availability.
+        </p>
+      </div>
+
+      <div style="text-align: center; margin-top: 3rem;" class="reveal-on-scroll">
+        <a href="team.html" class="btn btn-outline" id="team-btn-more">View Technician Profiles</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       6. Sanitation Section
+       ========================================== -->
+  <section class="sanitation" id="sanitation-section" style="background-color: var(--bg-white);">
+    <div class="container split-layout reverse">
+      <div class="image-side reveal-on-scroll">
+        <div class="image-frame" id="sanitation-img-frame" style="aspect-ratio: 4/3;">
+          <img src="images/blush-buff-pedicure-chairs.jpg" alt="Sanitized and comfortable pedicure spa chairs">
+        </div>
+      </div>
+      
+      <div class="content-side reveal-on-scroll" style="transition-delay: 0.15s;">
+        <div class="hero-badge" id="sanitation-badge">Safety & Comfort</div>
+        <h2 id="sanitation-section-heading">Clean, Comfortable Nail Care</h2>
+        <p class="lead" id="sanitation-intro-p" style="font-size: 1.25rem; line-height: 1.6; margin-bottom: 1.5rem; color: var(--primary-rose-dark); font-weight: 500;">
+          Clean tools, tidy stations, and client comfort are part of every appointment.
+        </p>
+        <p id="sanitation-body-p">
+          Tools are cleaned and sanitized between services, disposable items are used where appropriate, and manicure and pedicure areas are reset throughout the day to keep the salon fresh, organized, and welcoming.
+        </p>
+        <div class="sanitation-features" id="sanitation-features-container">
+          <div class="sanitation-feature-card">
+            <div class="sanitation-feature-icon">✨</div>
+            <div>
+              <h4 class="sanitation-feature-title">Sanitized Tools</h4>
+              <p class="sanitation-feature-desc">All metal tools undergo medical-grade sanitization between appointments.</p>
+            </div>
+          </div>
+          <div class="sanitation-feature-card">
+            <div class="sanitation-feature-icon">🧼</div>
+            <div>
+              <h4 class="sanitation-feature-title">Reset Stations</h4>
+              <p class="sanitation-feature-desc">Manicure desks and pedicure tubs are completely washed and sanitized after every client.</p>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top: 2rem;">
+          <a href="sanitation.html" class="btn btn-outline" id="sanitation-btn-more">Our Full Safety Protocols</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       7. Gift Certificates & Loyalty Section
+       ========================================== -->
+  <section class="loyalty" id="loyalty-section">
+    <div class="container loyalty-grid">
+      <div class="loyalty-program-details reveal-on-scroll">
+        <div class="hero-badge" id="loyalty-badge">Loyalty & Gifting</div>
+        <h2 id="loyalty-section-heading">Gift Certificates & Loyalty</h2>
+        
+        <div class="loyalty-badge-card" id="giftcard-info-card">
+          <div class="loyalty-badge-number">🎁</div>
+          <div class="loyalty-badge-text">
+            <h3>Gift Certificates</h3>
+            <p id="gifts-copy-text">
+              Gift certificates are available for birthdays, holidays, thank-you gifts, bridal parties, and special occasions. Please call the salon or ask at the front desk to purchase.
+            </p>
+          </div>
+        </div>
+        
+        <div class="loyalty-badge-card" id="loyalty-info-card">
+          <div class="loyalty-badge-number">⭐</div>
+          <div class="loyalty-badge-text">
+            <h3>Loyalty Program</h3>
+            <p id="loyalty-copy-text">
+              Ask about our rewards card during your next visit. After ten qualifying nail services, receive $10 off a future appointment.
+            </p>
+          </div>
+        </div>
+        
+        <div>
+          <a href="loyalty.html" class="btn btn-outline" id="loyalty-btn-more">Customize Gift Certificate Preview</a>
+        </div>
+      </div>
+      
+      <!-- Preview Widget -->
+      <div class="simulator-panel reveal-on-scroll" style="transition-delay: 0.15s;" id="loyalty-preview-panel">
+        <div class="simulator-title">
+          <h3>Virtual Reward Card</h3>
+          <p>Get rewarded for keeping your nails beautiful!</p>
+        </div>
+        <div class="giftcard-preview-wrapper">
+          <div class="giftcard-preview theme-rose" id="virtual-card-preview-mini">
+            <div class="giftcard-header">
+              <div>
+                <div class="giftcard-salon-name">Blush & Buff</div>
+                <div class="giftcard-salon-sub">NAIL STUDIO</div>
+              </div>
+              <div class="giftcard-stamp">★</div>
+            </div>
+            <div class="giftcard-amount-display" style="font-size: 2.2rem; text-align: center; margin: 1rem 0;">
+              $10 REWARD
+            </div>
+            <div class="giftcard-details" style="grid-template-columns: 1fr;">
+              <div>
+                <div class="giftcard-detail-label">LOYALTY STATUS</div>
+                <div class="giftcard-detail-value" style="font-size: 0.8rem;">Get $10 Off Your 11th Service</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       8. Hours Section
+       ========================================== -->
+  <section class="hours-section-wrapper" id="hours-section">
+    <div class="container hours-grid">
+      <div class="hours-content-side reveal-on-scroll">
+        <div class="hero-badge" id="hours-badge">Opening Times</div>
+        <h2 id="hours-section-heading">Our Hours</h2>
+        <p id="hours-intro-text">We make it easy to fit nail care into your busy week. We are open from Tuesday through Sunday, with evening hours to accommodate work schedules.</p>
+        
+        <div class="hours-table-wrapper" id="hours-table-widget">
+          <div class="hours-table">
+            <div class="hours-row">
+              <span class="hours-day">Tuesday</span>
+              <span class="hours-time">10:00 AM - 7:00 PM</span>
+            </div>
+            <div class="hours-row">
+              <span class="hours-day">Wednesday</span>
+              <span class="hours-time">10:00 AM - 7:00 PM</span>
+            </div>
+            <div class="hours-row">
+              <span class="hours-day">Thursday</span>
+              <span class="hours-time">10:00 AM - 7:00 PM</span>
+            </div>
+            <div class="hours-row">
+              <span class="hours-day">Friday</span>
+              <span class="hours-time">10:00 AM - 7:00 PM</span>
+            </div>
+            <div class="hours-row">
+              <span class="hours-day">Saturday</span>
+              <span class="hours-time">9:00 AM - 6:00 PM</span>
+            </div>
+            <div class="hours-row">
+              <span class="hours-day">Sunday</span>
+              <span class="hours-time">11:00 AM - 4:00 PM</span>
+            </div>
+            <div class="hours-row closed">
+              <span class="hours-day">Monday</span>
+              <span class="hours-time">Closed</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="hours-note" id="hours-note-box">
+          <p class="mb-0" id="hours-policy-note-text" style="margin-bottom: 0;">
+            Sunday hours are limited. Holiday hours may vary, please call ahead before visiting on major holidays.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Interactive Hours Status Widget -->
+      <div class="status-widget reveal-on-scroll" style="transition-delay: 0.15s;" id="live-hours-widget">
+        <div class="status-pill open" id="live-status-pill">
+          <span class="status-indicator-dot"></span>
+          <span id="live-status-text">Checking Status...</span>
+        </div>
+        <h3>Are We Open Now?</h3>
+        <p class="status-widget-message" id="live-status-message">Loading live business hours status...</p>
+        <a href="hours.html" class="btn btn-secondary" id="hours-btn-more">More About Hours</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       9. Location, Contact, Parking Section
+       ========================================== -->
+  <section class="contact" id="contact-section">
+    <div class="container contact-grid">
+      <div class="contact-cards-list reveal-on-scroll">
+        <div class="hero-badge" id="contact-badge">Directions & Booking</div>
+        <h2 id="contact-section-heading">Location & Contact</h2>
+        
+        <!-- Address Card -->
+        <div class="contact-card" id="contact-card-address">
+          <div class="contact-card-icon">📍</div>
+          <div class="contact-card-info">
+            <h3>Our Studio</h3>
+            <p id="contact-address-text">
+              3128 Patterson Avenue<br>Richmond, VA 23221
+            </p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Blush+%26+Buff+Nail+Studio+3128+Patterson+Avenue+Richmond+VA" target="_blank" class="social-pill" style="margin-top: 0.5rem;" id="address-directions-link">Get Directions</a>
+          </div>
+        </div>
+        
+        <!-- Phone & Email Card -->
+        <div class="contact-card" id="contact-card-phone">
+          <div class="contact-card-icon">📞</div>
+          <div class="contact-card-info">
+            <h3>Get In Touch</h3>
+            <p id="contact-phone-text"><strong>Phone:</strong> (804) 555-7426</p>
+            <p id="contact-email-text"><strong>Email:</strong> hello@blushandbuffnails.com</p>
+          </div>
+        </div>
+        
+        <!-- Parking Info Card -->
+        <div class="contact-card" id="contact-card-parking">
+          <div class="contact-card-icon">🚗</div>
+          <div class="contact-card-info">
+            <h3>Parking</h3>
+            <p id="contact-parking-text">
+              Street parking is available along Patterson Avenue and nearby side streets. Please allow a few extra minutes before your appointment during busy afternoon and weekend hours.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Contact Media/Map Column -->
+      <div class="contact-map-wrapper reveal-on-scroll" style="transition-delay: 0.15s;" id="contact-map-panel">
+        <div class="map-embed-placeholder" id="contact-exterior-image">
+          <img src="images/blush-buff-exterior.jpg" alt="Blush & Buff Nail Studio storefront exterior">
+          <div class="map-embed-overlay">
+            <div class="card" style="padding: 1.5rem; text-align: center; max-width: 280px; box-shadow: var(--shadow-lg);">
+              <div class="map-card-address">Blush & Buff</div>
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">3128 Patterson Ave, Richmond, VA</p>
+              <a href="https://www.google.com/search?q=Blush+%26+Buff+Nail+Studio+Richmond+VA" target="_blank" class="btn btn-primary btn-sm" style="padding: 0.5rem 1rem; font-size: 0.8rem;" id="gbp-search-btn">Find Us on Google</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-social-links" id="contact-social-pills" style="justify-content: center;">
+          <a href="https://www.instagram.com/blushandbuffnails" target="_blank" class="social-pill" id="instagram-pill">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            @blushandbuffnails
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       10. Footer Section
+       ========================================== -->
+  <footer class="main-footer" id="footer-section">
+    <div class="container footer-grid">
+      <!-- About / Brand Column -->
+      <div class="footer-column" id="footer-col-brand">
+        <div class="footer-logo-title">
+          <img src="logo/blush-and-buff-logo.jpg" alt="Blush & Buff Nail Studio Logo" class="footer-logo-img">
+          <span class="footer-logo-text">Blush & Buff</span>
+        </div>
+        <p class="footer-about-text">
+          A friendly neighborhood nail salon in Richmond, Virginia, focused on clean, comfortable services and polished results. Manicures, pedicures, extensions, and custom nail art.
+        </p>
+        <div style="margin-top: 1rem;">
+          <a href="https://www.google.com/search?q=Blush+%26+Buff+Nail+Studio+Richmond+VA" target="_blank" class="social-pill" style="padding: 0.4rem 1rem; font-size: 0.8rem; background-color: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.1); color: var(--text-light);" id="footer-gbp-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><path d="M2 10h20"></path><path d="M4 10V21a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V10"></path><path d="M3 10c0-1.66 1.34-3 3-3s3 1.34 3 3"></path><path d="M9 10c0-1.66 1.34-3 3-3s3 1.34 3 3"></path><path d="M15 10c0-1.66 1.34-3 3-3s3 1.34 3 3"></path><path d="M4 7V4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v3"></path><path d="M14 14.5h-3.5a2 2 0 0 0-2 2v0a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2v-1h-2"></path></svg>
+            Google Business Profile
+          </a>
+        </div>
+      </div>
+      
+      <!-- Quick Links Column -->
+      <div class="footer-column" id="footer-col-links">
+        <h3>Quick Links</h3>
+        <ul class="footer-links-list">
+          <li class="footer-link-item"><a href="index.html">Home</a></li>
+          <li class="footer-link-item"><a href="about.html">About & Sanitation</a></li>
+          <li class="footer-link-item"><a href="services.html">Services & Pricing</a></li>
+          <li class="footer-link-item"><a href="gallery.html">Nail Gallery</a></li>
+          <li class="footer-link-item"><a href="team.html">Our Team</a></li>
+          <li class="footer-link-item"><a href="loyalty.html">Gifts & Loyalty</a></li>
+        </ul>
+      </div>
+      
+      <!-- Contact Details Column -->
+      <div class="footer-column" id="footer-col-contact">
+        <h3>Contact Us</h3>
+        <div class="footer-contact-details">
+          <div class="footer-contact-item">
+            <span>📍</span>
+            <span>3128 Patterson Avenue<br>Richmond, VA 23221</span>
+          </div>
+          <div class="footer-contact-item">
+            <span>📞</span>
+            <span><a href="tel:+18045557426">(804) 555-7426</a></span>
+          </div>
+          <div class="footer-contact-item">
+            <span>✉️</span>
+            <span><a href="mailto:hello@blushandbuffnails.com">hello@blushandbuffnails.com</a></span>
+          </div>
+          <div class="footer-contact-item">
+            <span>📸</span>
+            <span><a href="https://www.instagram.com/blushandbuffnails" target="_blank">@blushandbuffnails</a></span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Hours Recap Column -->
+      <div class="footer-column" id="footer-col-hours">
+        <h3>Operating Hours</h3>
+        <div class="footer-hours-list">
+          <div class="footer-hours-row">
+            <span class="footer-hours-day">Tue - Fri:</span>
+            <span class="footer-hours-time">10:00 AM - 7:00 PM</span>
+          </div>
+          <div class="footer-hours-row">
+            <span class="footer-hours-day">Saturday:</span>
+            <span class="footer-hours-time">9:00 AM - 6:00 PM</span>
+          </div>
+          <div class="footer-hours-row">
+            <span class="footer-hours-day">Sunday:</span>
+            <span class="footer-hours-time">11:00 AM - 4:00 PM</span>
+          </div>
+          <div class="footer-hours-row">
+            <span class="footer-hours-day">Monday:</span>
+            <span class="footer-hours-time" style="color: var(--primary-rose);">Closed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer Bottom Line -->
+    <div class="container footer-bottom">
+      <p class="mb-0" id="footer-copyright">&copy; 2026 Blush & Buff Nail Studio. All rights reserved.</p>
+      <div class="footer-bottom-links" id="footer-terms-links">
+        <a href="hours.html">Hours</a>
+        <a href="contact.html">Parking & Location</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       Scripts
+       ========================================== -->
+  <script src="js/main.js"></script>
+</body>
+</html>

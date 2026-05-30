@@ -1,0 +1,21 @@
+{
+  "name": "blush-and-buff-nail-studio",
+  "version": "1.0.0",
+  "description": "Premium multi-page website for Blush & Buff Nail Studio",
+  "main": "index.html",
+  "scripts": {
+    "dev": "browser-sync start --server --files \"*.html, css/*.css, js/*.js\" --port 3030"
+  },
+  "keywords": [
+    "nail",
+    "salon",
+    "website",
+    "blush",
+    "buff"
+  ],
+  "author": "Antigravity",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.3"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "pricing_note": "Prices may vary based on nail length, shape, product removal, repair needs, and nail art complexity. Please ask your technician for a final quote before service begins.",
+  "categories": [
+    {
+      "name": "Manicures",
+      "items": [
+        {
+          "name": "Classic Manicure",
+          "description": "Nail shaping, cuticle care, lotion massage, and regular polish.",
+          "price": "$28"
+        },
+        {
+          "name": "Gel Manicure",
+          "description": "Classic manicure with long-lasting gel polish.",
+          "price": "$42"
+        },
+        {
+          "name": "Dip Powder Manicure",
+          "description": "Dip powder color with shaping and cuticle care.",
+          "price": "$48"
+        },
+        {
+          "name": "Builder Gel Overlay",
+          "description": "Structured gel overlay for added strength on natural nails.",
+          "price": "Starting at $55"
+        }
+      ]
+    },
+    {
+      "name": "Pedicures",
+      "items": [
+        {
+          "name": "Classic Pedicure",
+          "description": "Foot soak, nail shaping, cuticle care, light callus smoothing, lotion massage, and regular polish.",
+          "price": "$40"
+        },
+        {
+          "name": "Spa Pedicure",
+          "description": "Classic pedicure with exfoliating scrub, hot towel wrap, and extended massage.",
+          "price": "$55"
+        },
+        {
+          "name": "Deluxe Pedicure",
+          "description": "Spa pedicure with callus treatment, moisturizing mask, paraffin dip, and extended massage.",
+          "price": "$70"
+        }
+      ]
+    },
+    {
+      "name": "Acrylics & Enhancements",
+      "items": [
+        {
+          "name": "Acrylic Full Set",
+          "description": "Full acrylic set with regular polish.",
+          "price": "Starting at $60"
+        },
+        {
+          "name": "Acrylic Fill",
+          "description": "Acrylic maintenance fill.",
+          "price": "Starting at $45"
+        },
+        {
+          "name": "Gel-X Full Set",
+          "description": "Soft gel extensions with gel polish.",
+          "price": "Starting at $68"
+        }
+      ]
+    },
+    {
+      "name": "Nail Art",
+      "items": [
+        {
+          "name": "Simple Nail Art",
+          "description": "Accent nails, dots, lines, chrome, stickers, or simple designs.",
+          "price": "Starting at $5 per nail"
+        },
+        {
+          "name": "Detailed Nail Art",
+          "description": "Hand-painted designs, French tips, seasonal art, gems, layered designs, or specialty finishes.",
+          "price": "Priced by design complexity"
+        }
+      ]
+    },
+    {
+      "name": "Add-Ons",
+      "items": [
+        {
+          "name": "Gel Polish Removal",
+          "description": "Removal before a new service or as a standalone add-on.",
+          "price": "$12"
+        },
+        {
+          "name": "Dip Powder Removal",
+          "description": "Dip powder removal before a new service or as a standalone add-on.",
+          "price": "$15"
+        },
+        {
+          "name": "Acrylic Removal",
+          "description": "Acrylic removal before a new service or as a standalone add-on.",
+          "price": "$20"
+        },
+        {
+          "name": "Nail Repair",
+          "description": "Single nail repair.",
+          "price": "$5+ per nail"
+        },
+        {
+          "name": "Paraffin Treatment",
+          "description": "Warm paraffin treatment for hands or feet.",
+          "price": "$12"
+        },
+        {
+          "name": "Callus Treatment",
+          "description": "Additional smoothing treatment for pedicure services.",
+          "price": "$15"
+        },
+        {
+          "name": "French Tip Add-On",
+          "description": "Classic French tip add-on.",
+          "price": "$10+"
+        }
+      ]
+    },
+    {
+      "name": "Waxing",
+      "items": [
+        {
+          "name": "Eyebrow Wax",
+          "description": "Eyebrow shaping and cleanup.",
+          "price": "$15"
+        },
+        {
+          "name": "Lip Wax",
+          "description": "Upper lip wax.",
+          "price": "$10"
+        },
+        {
+          "name": "Chin Wax",
+          "description": "Chin wax.",
+          "price": "$12"
+        }
+      ]
+    }
+  ]
+}

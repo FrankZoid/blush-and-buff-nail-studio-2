@@ -1,0 +1,38 @@
+{
+  "team_members": [
+    {
+      "name": "Maya",
+      "specialties": [
+        "Gel manicures",
+        "Natural nails",
+        "Classic French styles"
+      ]
+    },
+    {
+      "name": "Tasha",
+      "specialties": [
+        "Acrylic full sets",
+        "Long nail shaping",
+        "Bold nail art"
+      ]
+    },
+    {
+      "name": "Lina",
+      "specialties": [
+        "Dip powder",
+        "Builder gel",
+        "Soft seasonal designs"
+      ]
+    },
+    {
+      "name": "Carmen",
+      "specialties": [
+        "Pedicures",
+        "Spa pedicures",
+        "Natural nail care"
+      ]
+    }
+  ],
+  "individual_booking_links_included": false,
+  "team_note": "Clients are welcome to request a preferred technician when calling to schedule, but booking with a specific team member is based on availability."
+}

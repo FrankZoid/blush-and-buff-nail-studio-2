@@ -1,0 +1,24 @@
+{
+  "booking_system": {
+    "included": false,
+    "name": null,
+    "url": null
+  },
+  "google_business_profile": {
+    "included": true,
+    "url": "https://www.google.com/search?q=Blush+%26+Buff+Nail+Studio+Richmond+VA"
+  },
+  "instagram": {
+    "included": true,
+    "handle": "@blushandbuffnails",
+    "url": "https://www.instagram.com/blushandbuffnails"
+  },
+  "facebook": {
+    "included": false,
+    "url": null
+  },
+  "yelp": {
+    "included": false,
+    "url": null
+  }
+}
