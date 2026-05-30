@@ -688,6 +688,10 @@ section {
   margin: 0 auto 2rem auto;
 }
 
+.services-menu-page {
+  padding-top: 3rem;
+}
+
 /* Detailed Services Page */
 .services-menu-container {
   display: grid;
@@ -743,7 +747,7 @@ section {
 .services-menu-content {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 2.2rem;
 }
 
 .services-category-section {
